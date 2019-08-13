@@ -1,0 +1,22 @@
+{
+  "name": "webpack_template",
+  "version": "1.0.0",
+  "description": "my template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode-production"
+  },
+  "author": "Irina Zaletko",
+  "license": "ISC",
+  "devDependencies": {
+    "npm": "^6.10.3",
+    "path": "^0.12.7",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6"
+  }
+}
